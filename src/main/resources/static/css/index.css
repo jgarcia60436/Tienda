@@ -1,0 +1,57 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+   box-sizing define el tamaño del contenedor segun las medidas 
+   position propiedad que permite desplazar o mover nuestros contenedores
+   static Se queda en la posicion y se queda 
+   relative Se superpone a todo 
+   absolute Se basa en quien lo contenga
+   fixed Se queda segun lo que el usuario observa
+   sticky
+   
+
+
+*/
+
+.block{
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 20px solid #6666ff;
+    box-sizing: border-box;
+}
+
+.static{
+    position: static;
+    border: 3px solid #9900cc; 
+    top: 400px;
+    left: 50px;
+}
+
+.relative{
+    position: relative;
+    border: 3px solid #66ff66;
+    top: 500px;
+    left: 400px;
+    width: 400px;
+    height: 500px;
+}
+
+.fixed{
+    position: fixed;
+    border: 3px solid #3399ff;
+    top: 150px;
+    left: 50px;
+}
+
+.absolute{
+    position: absolute;
+    border: 3px solid #3399ff;
+    top: 80px;
+    left: 50px;
+    width: 200px;
+    height: 100px;
+}
